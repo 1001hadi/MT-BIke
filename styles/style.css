@@ -42,7 +42,16 @@ nav {
 #menu ul li {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 40px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #dcd7c9;
+}
+
+#menu ul li a:hover {
+  color: #a27b5c;
 }
 
 #menu ul li:hover {
@@ -114,7 +123,7 @@ nav {
 }
 
 #offers h1 {
-  color: #196130;
+  color: #3f4f44;
   margin: 20px 0 30px 0;
   font-weight: bold;
 }
@@ -122,6 +131,23 @@ nav {
 .cards {
   display: flex;
   justify-content: space-evenly;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* bikes page */
+
+.container h1 {
+  text-align: center;
+  color: #3f4f44;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.container p {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 /* Footer */
