@@ -159,21 +159,43 @@ nav {
 }
 
 /* Service page */
-#service {
-  height: 89vh;
-}
 
 #service .card {
-  height: 60vh;
+  height: 50vh;
   border: 2px solid #a27b5c;
   margin-top: 30px;
 }
 
 .card h4 {
-  margin: 30px 0;
-  padding: 20px 0;
+  margin: 10px 0;
+  padding: 10px 0;
   text-align: center;
   border-bottom: 3px solid #a27b5c;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.offer {
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+.offer button {
+  height: 60px;
+  width: 350px;
+  margin-bottom: 50px;
+  background: #a27b5c;
+  border-radius: 10px;
+  color: #3f4f44;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.offer button:hover {
+  background: #2c3930;
+  color: #a27b5c;
 }
 
 /* Footer */
