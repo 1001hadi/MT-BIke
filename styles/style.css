@@ -161,7 +161,7 @@ nav {
 /* Service page */
 
 #service .card {
-  height: 50vh;
+  height: 45vh;
   border: 2px solid #a27b5c;
   margin-top: 30px;
 }
@@ -173,6 +173,38 @@ nav {
   border-bottom: 3px solid #a27b5c;
   font-weight: bold;
   font-size: 1.6rem;
+}
+
+#service .card ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#service .card .service-item {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#service .card .book-btn {
+  height: 40px;
+  width: 120px;
+  float: right;
+  margin: 10px 30px;
+  border-radius: 10px;
+  background: #2c3930;
+  color: #a27b5c;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#service .card .book-btn:hover {
+  background: #a27b5c;
+  color: #2c3930;
 }
 
 .offer {
