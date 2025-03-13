@@ -13,9 +13,10 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   background-color: #3f4f44;
   color: #dcd7c9;
-  height: 5vh;
+  height: 70px;
 }
 
 #logo h1 {
@@ -118,7 +119,8 @@ nav {
 /* Offer section */
 
 #offers {
-  height: 30vh;
+  /* height: 30vh; */
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -136,7 +138,9 @@ nav {
 }
 
 /* bikes page */
-
+.container {
+  min-height: 88vh;
+}
 .container h1 {
   text-align: center;
   color: #3f4f44;
@@ -150,10 +154,32 @@ nav {
   text-align: justify;
 }
 
+.gallery {
+  margin-bottom: 50px;
+}
+
+/* Service page */
+#service {
+  height: 89vh;
+}
+
+#service .card {
+  height: 60vh;
+  border: 2px solid #a27b5c;
+  margin-top: 30px;
+}
+
+.card h4 {
+  margin: 30px 0;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 3px solid #a27b5c;
+}
+
 /* Footer */
 
 footer {
-  height: 5vh;
+  height: 70px;
   background-color: #2c3930;
   color: #dcd7c9;
 }
