@@ -162,7 +162,7 @@ nav {
 
 #service .card {
   height: 45vh;
-  border: 2px solid #a27b5c;
+  border: 5px solid #a27b5c;
   margin-top: 30px;
 }
 
@@ -208,15 +208,15 @@ nav {
 }
 
 .offer {
-  margin: 40px;
-  padding: 40px;
+  margin: 40px 20px;
+  padding: 20px;
   text-align: center;
 }
 
 .offer button {
   height: 60px;
   width: 350px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background: #a27b5c;
   border-radius: 10px;
   color: #3f4f44;
@@ -228,6 +228,12 @@ nav {
 .offer button:hover {
   background: #2c3930;
   color: #a27b5c;
+}
+
+.offer p {
+  padding-top: 30px;
+  text-align: justify;
+  font-size: 1.8rem;
 }
 
 /* Footer */
