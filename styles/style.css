@@ -245,6 +245,29 @@ nav {
   font-size: 1.8rem;
 }
 
+/* contact */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.opinion {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.opinion h1 {
+  margin: 50px 0;
+}
+
+.form-container .form-img {
+  max-width: 400px;
+}
+
 /* Footer */
 
 footer {
