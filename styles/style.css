@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #dcd7c9;
+  background: #e8e5dc;
   height: 100vh;
 }
 
@@ -163,6 +163,17 @@ nav {
   margin: 20px 0;
   padding: 20px;
   color: #a27b5c;
+}
+
+.gallery .card h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.gallery .card:hover {
+  background: #c89267;
+  color: #2c3930;
+  cursor: pointer;
 }
 
 /* Service page */
