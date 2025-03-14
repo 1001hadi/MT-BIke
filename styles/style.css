@@ -251,7 +251,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  /* height: 50vh; */
+  margin-top: 50px;
 }
 
 .opinion {
@@ -264,8 +265,47 @@ nav {
   margin: 50px 0;
 }
 
+/* .form-container {
+  border: 2px solid;
+} */
+
 .form-container .form-img {
   max-width: 400px;
+  padding: 20px 0;
+}
+
+.form {
+  text-align: center;
+  height: 600px;
+  margin: 20px 20px 20px 70px;
+  /* border: 3px solid #a27b5c; */
+}
+
+.form h2 {
+  text-align: center;
+  color: #a27b5c;
+  margin: 20px 0;
+}
+
+.form input {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 350px;
+}
+
+.form .text {
+  height: 150px;
+}
+
+.submit-btn {
+  margin: 20px auto;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background: #a27b5c;
+  color: #394d3f;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 
 /* Footer */
