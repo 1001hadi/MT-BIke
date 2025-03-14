@@ -156,6 +156,13 @@ nav {
 
 .gallery {
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.gallery .card {
+  margin: 20px 0;
+  padding: 20px;
+  color: #a27b5c;
 }
 
 /* Service page */
@@ -252,7 +259,7 @@ nav {
   justify-content: center;
   align-items: center;
   /* height: 50vh; */
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .opinion {
@@ -262,7 +269,7 @@ nav {
 }
 
 .opinion h1 {
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 /* .form-container {
